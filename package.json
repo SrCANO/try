@@ -1,0 +1,25 @@
+{
+  "name": "intento",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app",
+    "devstart": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "^3.1.7",
+    "express": "~4.16.1",
+    "express-flash": "^0.0.2",
+    "heroku": "^7.33.3",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "mysql": "^2.18.1",
+    "npm-git-install": "^0.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "nodemon": "^2.0.16"
+  }
+}
