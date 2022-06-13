@@ -20,7 +20,7 @@
               <th>Title</th>
               <th>News</th>
             </tr>
-            <% for (var i = 0; i < news.length; i ++) { %>
+            <% for (var i = 0; i < (news.length); i ++) { %>
               <tr>
                 <td><a href="/news/delete/<%= news[i].id_news %>" class="btn btn-primary">X</a></td>
                 <td><%= news[i].id_news %></td>
