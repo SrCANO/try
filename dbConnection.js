@@ -12,7 +12,7 @@ module.exports = () => {
 
     });
 
-};
+}
 
 // host: 'localhost'
 // host: 'bi5dgxk1ijropgtjfuhl-mysql.services.clever-cloud.com',
